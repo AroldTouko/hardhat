@@ -1,0 +1,11 @@
+cotisation.showMembers("1")
+await cotisation.showMembers("1")
+await cotisation.showMembers(1)
+await cotisation.createTontine("Tontine 1200 G$",1200,1)
+const cotisation = await Cotisation.attach('0xc79Dc5EAA06cc68Feb9b70c321936fF17B1Ad052')
+	const Cotisation = await ethers.getContractFactory("Cotisation");
+let tontine =await contract.deployed()
+let instance =await contract.deployed()
+contract.createTontine("Tontine 1200 G$",1200,7)
+.help
+let instance =await Cotisation.deployed()
